@@ -1,0 +1,288 @@
+.dividor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec1 {
+
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* name */
+.CN label {
+    display: block;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+/* inputname */
+.CN input {
+    font-size: x-large;
+    border: 1px solid black;
+    margin-top: 0.6rem;
+    /* border-radius:10px; */
+    width: 90%;
+    font-weight: lighter;
+}
+
+.dev1 {
+    display: flex;
+    /* justify-content:space-between ; */
+    margin-top: 0.8rem;
+}
+
+/* type label */
+.dev1 .devv label {
+    font-weight: lighter;
+    font-size: larger;
+    display: block;
+}
+
+/* type input */
+.dev1 .devv input {
+    /* width:30%; */
+    border: 1px solid black;
+    margin-top: 0.4rem;
+    /* border-radius:8px; */
+    font-size: larger;
+    width: 90%;
+    font-weight: lighter;
+}
+
+/* model */
+.dev1 .dev label {
+    /* margin: left 0px; */
+    font-size: larger;
+    margin-left: 2rem;
+    font-weight: lighter;
+    display: block;
+}
+
+.dev1 .dev input {
+    /* width:30%; */
+    border: 1px solid black;
+    margin-top: 0.4rem;
+    /* border-radius:8px; */
+    font-size: larger;
+    width: 90%;
+    margin-left: 2rem;
+    box-sizing: border-box;
+    font-weight: lighter;
+
+}
+
+/* milage */
+.dev2 {
+    display: flex;
+    /* justify-content:space-evenly ; */
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.dev2 .devv label {
+    
+
+    font-size: larger;
+    /* margin-left:2rem */
+    display: block;
+
+}
+
+.dev2 .devv input {
+    border: 1px solid black;
+    margin-top: 0.4rem;
+    /* border-radius:8px; */
+    font-size: larger;
+    width: 90%;
+
+}
+
+.dev2 .dev {
+    display: flex;
+    /* justify-content: left; */
+}
+
+/* perkm */
+.dev2 .dev label {
+    display: block;
+    font-size: larger;
+    margin-left: 2.5rem;
+
+}
+
+.dev2 .dev input {
+
+    border: 1px solid black;
+    margin-top: 0.4rem;
+    /* border-radius:8px; */
+    font-size: larger;
+    width: 43%;
+    margin-left: 2rem;
+    box-sizing: border-box;
+}
+
+.dev3 {
+    margin-top: 2rem;
+    display: flex;
+}
+
+/* available from */
+.dev3 .devv label {
+    font-weight: lighter;
+    font-size: medium;
+    display: block;
+}
+
+/* available from input */
+.dev3 .devv input {
+    border: 1px solid black;
+    margin-top: 0.4rem;
+    /* border-radius:8px; */
+    font-size: larger;
+    width: 160%;
+    font-weight: lighter;
+}
+
+/* available till */
+.dev3 .dev label {
+    font-size: medium;
+    margin-left: 8.3rem;
+    font-weight: lighter;
+    display: block;
+
+    /* font-size: larger;
+    margin-left: 2rem;
+    font-weight: lighter;
+    display: block; */
+}
+
+.dev3 .dev input {
+    border: 1px solid black;
+    margin-top: 0.4rem;
+   
+    font-size: larger;
+    width: 90%;
+    margin-left: 8.3rem;
+    box-sizing: border-box;
+    font-weight: lighter;
+
+    /* border: 1px solid black;
+    margin-top: 0.4rem;
+    font-size: larger;
+    width: 90%;
+    margin-left: 2rem;
+    box-sizing: border-box;
+    font-weight: lighter; */
+}
+
+/* description */
+.dev4 .CN label {
+    display: block;
+    font-size: large;
+    margin-top: 1.2rem;
+}
+
+.dev4 .CN textarea {
+    border: 1px solid black;
+    margin-top: 0.6rem;
+    /* border-radius:10px; */
+    width: 90%;
+}
+
+#cancel {
+    border: 1px solid skyblue;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1.2rem;
+    margin-left: 30%;
+    width: 23%;
+    color: skyblue;
+    font-size: medium;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.sec2 {
+    width: 50%;
+    background-color: white;
+    margin-left: 20px;
+    border: 0.8px solid whitesmoke;
+}
+
+.sec2 .dev {
+    margin-top: 1rem;
+}
+
+/* images */
+.dev #dev1 {
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.addimg {
+    border: 1px solid skyblue;
+    padding: 0.5rem;
+    text-align: center;
+    width: 23%;
+    color: skyblue;
+    font-size: medium;
+    box-sizing: border-box;
+
+}
+
+
+.dev div {
+    margin-bottom: 1rem;
+}
+
+.ui {
+    display: flex;
+
+}
+
+.ui li {
+    list-style: none;
+    width: 20%;
+    border: 0.6px solid lightslategray;
+    /* margin-top:1rem; */
+    text-align: center;
+    box-shadow: inset;
+    height: 2rem;
+    background-color: aliceblue;
+    /* flex-wrap:wrap; */
+
+}
+
+/* cardetails and label */
+.dev5 label {
+    display: block;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.dev5 textarea {
+    border: 1px solid black;
+    margin-top: 0.6rem;
+    /* border-radius:10px; */
+    width: 90%;
+    font-size: large;
+}
+
+.add {
+    border: 1px solid skyblue;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1.2rem;
+    margin-left: 30%;
+    width: 23%;
+    color: skyblue;
+    font-size: medium;
+    box-sizing: border-box;
+    margin-top: 4.3rem;
+}
