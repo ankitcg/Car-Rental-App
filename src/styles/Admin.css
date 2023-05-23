@@ -1,0 +1,121 @@
+h5{
+    color: rgb(165, 164, 164);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.1); */
+
+  
+}
+.acd{
+    display:flex;
+    justify-content: space-between;
+}
+.cars{
+
+    margin-left: 20px;
+
+}
+
+.ac{
+
+    padding: 8px 20px;
+    border: 2px solid black;
+    outline: none;
+    color: white;
+    background-color: rgb(27, 45, 247);
+    border-radius: 10px;
+    /* margin-right: 30px; */
+
+}
+
+.ac:hover{
+    background-color:rgb(11, 226, 82);
+}
+.modify-btn{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+    border-radius: 30px;
+    margin-left: 30px;
+
+}
+
+section {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    /* width: 400px;
+    height: 110px; */
+    height: 8vh;
+}
+
+.cards {
+    /* width: 80%; */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image_box img{
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.seat {
+    float: left;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.5rem;
+}
+
+.rate {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.details {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 50px;
+} 
+.vailableDate{
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+  
+    /* float: right; */
+
+}
+
+.fare {
+    color: rgba(0, 0, 0, 0.4);
+    /* float: left; */
+    font-size: 0.8rem;
+} 
+.fare-btn{
+    display: flex;
+    gap: 50px;
+    
+}
+

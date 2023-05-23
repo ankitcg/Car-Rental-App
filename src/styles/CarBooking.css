@@ -1,0 +1,131 @@
+h5{
+    color: rgb(165, 164, 164);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.1); */
+
+  
+}
+
+.modify-btn{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+    border-radius: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.big-container{
+    margin-top: 30px;
+}
+.thirdNavbar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: gray;
+    border: 0.1px solid rgb(237, 234, 234);
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.dropdown{
+    padding: 0px 6px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+    border-radius: 10px;
+    margin-left: 0px;
+    width: 50px;
+    height: 26px;
+}
+section {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* width: 400px;
+    height: 110px; */
+    height: 8vh;
+}
+
+.cards {
+    /* width: 80%; */
+    width: 280pxpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.image_box img{
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.seat {
+    float: left;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.5rem;
+}
+
+.rate {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.details {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.btn{
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+    border-radius: 5px;
+    /* float: right; */
+    
+
+}
+
+.fare {
+    color: rgba(0, 0, 0, 0.4);
+    /* float: left; */
+    font-size: 0.8rem;
+}
+.fare-btn{
+    display: flex;
+    gap: 50px;
+    
+}
+

@@ -1,0 +1,134 @@
+/* .my-box{
+    max-width: 1300px;
+    height: 700px;
+    border: 1px solid black;
+} */
+
+.div-1{
+    max-width: 1250px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+}
+
+.one-div{
+    max-width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+
+}
+
+.one-div img{
+    width: 200px;
+    height: 180px;
+
+
+}
+
+.two-div{
+    max-width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+    padding: 0px 20px;
+    /* overflow-y: hidden; */
+    margin-bottom: 10px;
+    
+}
+
+.three-div{
+    max-width: 500px;
+    height: 180px;
+    border: 1px solid gray;
+    /* padding: 5px 5px; */
+    
+
+}
+
+.mini-3rd-div{
+    display: flex;
+    gap: 20px;
+    padding: 5px 5px;
+    
+
+}
+.mini-3rd-div-img img{
+    width: 150px;
+    height: 100px;
+   
+}
+
+.four-div{
+    max-width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+    
+}
+.mini-four-div{
+    /* width: 150px; */
+    display: flex;
+    gap: 30px;
+    padding: 5px 5px;
+
+}
+
+.five-div{
+    max-width: 200px;
+    height: 180px;
+    /* border: 1px solid gray; */
+}
+.edit-btn{
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(62, 137, 137);
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.six-div{
+    max-width: 200px;
+    height: 180px;
+    /* border: 1px solid gray; */
+
+}
+
+.can-btn{
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    color: rgb(50, 121, 98);
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+
+
+.div-2{
+    max-width: 1250px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+
+    
+}
+
+.div-3{
+    max-width: 1250px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+}
+/* .paratag{
+    padding-top: 20px;
+} */
